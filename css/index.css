@@ -1,0 +1,15 @@
+
+div{
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    border: 5px solid #FFFF00;
+    padding: 10px;
+    color: #ff867a;
+    background-image: linear-gradient(to right, #ccff7a 50%, #ccff7a 0%, #ccff7a 50%, #ccff7a 100%);
+
+    box-shadow: 0 0 6px rgba(0, 0, 0, .5);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+/*cuando paso el mouse se abre, lo hago con JS
+header:hov

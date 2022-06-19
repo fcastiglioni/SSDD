@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" and dir="Itr">
+    <head>
+        <meta charset="utf-8">
+        <title>Interactive Login Format</title>
+        <!-- <link rel="stylesheet" href="css/resStyle.css"> -->
+        <link rel="stylesheet" href="css/loginStyle.css">
+        <script src="login2.js"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap" rel="stylesheet">
+
+
+    </head>
+    <header>
+        <h1 class="logo">
+            Bix
+        </h1>
+        <ul>
+            <li><a href="index.php">Home</a></li>
+            <li><a href="login.html">Iniciar Sesión</a></li>
+            <li><a href="#">"    "</a></li>
+        </ul>
+        
+    </header>
+            
+
+    <body>
+        <form class="box" action="inc/register.php" method="POST" enctype="multipart/form-data">
+            <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+            <h1>
+                Registrarse
+            </h1>
+            <input type="text" name="nombre" placeholder="nombre" id="name" required>
+            <input type="text" name="apellido" placeholder="apellido" id="name" required>
+            <input type="text" name="ci" placeholder="ci" id="ci" required> 
+            <input type="password" name="password" placeholder="Contraseña" id="password" required>
+            <input type="password" name="password2" placeholder="Repetir contraseña" id="repeat-password" required>
+            
+            
+            <input type="submit" name="register" value="Registrarse" onclick="register()">
+        </form>
+    </body>
+</html>
