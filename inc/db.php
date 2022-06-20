@@ -5,7 +5,7 @@ session_start();
 $host = "localhost";
 $dbusername = "root";
 $dbpassword = "";
-$dbname = "tic3";
+$dbname = "SSDD";
 //genero la conexion a la bdd
 $conn = new mysqli($host,$dbusername,$dbpassword,$dbname);
 //$conn = mysqli_connect("localhost:3308" , "root" , "", "database_name");
